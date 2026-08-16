@@ -14,13 +14,13 @@ const mockBooks: Book[] = [
 
 export default function Books(): ReactElement {
   return (
-    <section className="mx-auto max-w-4xl px-4 py-12">
-      <h1 className="text-3xl font-extrabold tracking-tight text-emerald-400 sm:text-4xl">Bookshelf</h1>
-      <p className="mt-2 text-slate-400">Curated compilation of professional and technical books I have studied along with reviews.</p>
+    <section className="mx-auto max-w-4xl px-4 py-12 text-white">
+      <h1 className="text-3xl font-extrabold tracking-tight sm:text-4xl">Bookshelf</h1>
+      <p className="mt-2">Curated compilation of professional and technical books I have studied along with reviews.</p>
       
-      <div className="mt-10 grid gap-6 sm:grid-cols-2">
+      <div className="mt-10 grid gap-6 sm:grid-cols-1">
         {mockBooks.map((book) => (
-          <div key={book.id} className="flex flex-col justify-between rounded-xl border border-slate-800 bg-slate-900/50 p-6 transition-all hover:border-slate-700">
+          <div key={book.id} className="flex flex-col justify-between rounded-xl border border-white/40 bg-inherit p-6 transition-all hover:border-slate-700">
             <div>
               <div className="flex items-center justify-between gap-2">
                 <h2 className="text-lg font-bold text-white line-clamp-1">{book.title}</h2>
@@ -29,8 +29,8 @@ export default function Books(): ReactElement {
                   ★ {book.rating}.0
                 </div>
               </div>
-              <p className="text-xs text-slate-400 mt-0.5">By {book.author}</p>
-              <p className="mt-3 text-slate-400 text-sm leading-relaxed line-clamp-3">{book.description}</p>
+              <p className="text-xs text-white/60 mt-0.5">{book.author}</p>
+              <p className="mt-3 text-white/50 text-sm leading-relaxed line-clamp-3">{book.description}</p>
             </div>
             
             <a href={book.reviewLink} target="_blank" rel="noreferrer" className="mt-6 inline-flex items-center text-sm font-semibold text-emerald-400 hover:underline">

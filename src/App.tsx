@@ -15,13 +15,22 @@ export default function App(): ReactElement {
           <Routes>
             {/* Landing Route */}
             <Route path="/" element={
-              <section className="flex min-h-screen flex-col items-center justify-center px-2 text-center">
-                <div className="">
-                  <p className="">
+              <section className="flex min-h-screen flex-col space-y-8 items-center justify-center px-2 text-center">
+                <div className="flex items-start">
+                  <p className="text-start leading-relaxed">
                     Software Engineering bandwidth and genius ideas are the bottlenecks to rapid AI progress.
                     Corporations, Individuals and Goverments continue to look for better ways to assimilate AI into their workflows.
                   </p>
 
+                </div>
+                {/**Other projects will go here */}
+                {/**Links to social media */}
+                <div className='block w-full'>
+                  <nav className='flex flex-col space-y-2 items-start text-white/60'>
+                    <a href="http://github.com/murigugitonga" target="_blank" rel="noopener noreferrer">Github</a>
+                    <a href="http://github.com/murigugitonga" target="_blank" rel="noopener noreferrer">Gitlab</a>
+                    <a href="http://github.com/murigugitonga" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                  </nav>
                 </div>
               </section>
             } />

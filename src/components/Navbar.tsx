@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 export default function Navbar(): ReactElement {
   return (
     <nav className="fixed top-0 z-50 w-full max-w-lg bg-black backdrop-blur-md text-white">
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-7xl px-2">
         <div className="flex h-16 items-center justify-between">
           {/* Logo / Home link */}
           <div className="flex-shrink-0">
@@ -17,13 +17,13 @@ export default function Navbar(): ReactElement {
           <div className="flex text-sm text-white/60 items-center space-x-6 sm:space-x-8">
             <Link 
               to="/thoughts" 
-              className="text-sm font-medium transition-colors hover:text-white-40"
+              className="text-sm font-medium transition-colors hover:text-white-40 active:underline"
             >
               Thoughts
             </Link>
             <Link 
               to="/books" 
-              className="text-sm font-medium transition-colors hover:text-white/40"
+              className="text-sm font-medium transition-colors hover:text-white/40 active:underline"
             >
               Books
             </Link>

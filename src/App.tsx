@@ -1,15 +1,17 @@
 import type { ReactElement } from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-//import Navbar from './components/Navbar';
-import Navbar from './components/Navbar.js';
+//import Navbar from './components/Navbar.js';
 import Thoughts from './pages/Thoughts.js';
 import Books from './pages/Books.js';
+import NavbarTwo from './components/NavbarTwo.js';
+
 
 export default function App(): ReactElement {
   return (
     <Router>
-      <div className="relative flex px-4 justify-center items-start min-h-screen w-full bg-black text-[#E7E5E0]">
-        <Navbar />
+      <div className="relative flex p-4 justify-center items-start min-h-screen w-full bg-black text-[#E7E5E0]">
+        {/* <Navbar /> */}
+        <NavbarTwo/>
 
         <main className="pt-2 max-w-lg flex bg-inherit">
           <Routes>
@@ -22,7 +24,7 @@ export default function App(): ReactElement {
                   </p>
                   <p className="text-start leading-relaxed text-[#E7E5E0]">
                     My call is engineeering the infrastructure that operationalizes these models - frontier and specialized - building the
-                    computational systems that allows them to effectively mitigate these shortcomings, maximising throughput and minimising infrastructure churn, transforming raw model capability into usable Artificial Intelligence.
+                    computational systems that allow them to effectively mitigate these shortcomings, maximize throughput and minimize infrastructure churn, transforming raw model capability into usable Artificial Intelligence.
                   </p>
 
                 </div>

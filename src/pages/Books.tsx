@@ -30,18 +30,18 @@ const mockBooks: Book[] = [
 
 export default function Books(): ReactElement {
   return (
-    <section className="mx-auto max-w-4xl px-4 py-12 text-white">
+    <section className="mx-auto max-w-4xl px-2 py-12 text-white">
       <h1 className="text-lg font-extrabold tracking-tight sm:text-xl">Bookshelf</h1>
-      <p className="mt-2 text-sm">A general compilation of professional and technical books I have studied along with my two cents on each.</p>
+      <p className="mt-2 text-sm text-white/70 italic">A curated collection of books, papers and articles of professional and technical books I have studied along with my two cents on each.</p>
       
       <div className="mt-10 grid gap-6 sm:grid-cols-1">
         {mockBooks.map((book) => (
           <div key={book.id} className="flex flex-col justify-between rounded-xl border border-white/10 bg-inherit p-6 transition-all hover:border-slate-700">
             <div>
               <div className="flex items-center justify-between gap-2">
-                <h2 className="text-lg font-bold text-white line-clamp-1">{book.title}</h2>
-                {/* Rating Box */}
-                <div className="flex items-center rounded-md bg-amber-500/10 px-2 py-1 text-xs font-semibold text-amber-400 ring-1 ring-amber-500/20">
+                <h2 className="text-lg font-bold text-white">{book.title}</h2>
+                {/* Rate Box */}
+                <div className="flex items-center rounded-md bg-inherit px-2 py-1 text-xs font-semibold text-white ring-1 ring-white/40">
                   ★ {book.rating}.0
                 </div>
               </div>
@@ -49,8 +49,8 @@ export default function Books(): ReactElement {
               <p className="mt-1 text-white/50 text-sm leading-relaxed italic">{book.description}</p>
             </div>
             
-            <a href={book.reviewLink} target="_blank" rel="noreferrer" className="mt-2 inline-flex items-center text-sm font-semibold text-emerald-400 hover:underline">
-              View on Goodreads →
+            <a href={book.reviewLink} target="_blank" rel="noreferrer" className="mt-2 inline-flex items-center text-sm font-semibold text-white hover:underline">
+              Read →
             </a>
           </div>
         ))}

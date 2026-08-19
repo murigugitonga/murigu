@@ -32,17 +32,17 @@ const mockThoughts: Thought[] = [
 export default function Thoughts(): ReactElement{
     return(
         <section className="mx-auto max-w-4xl px-2 py-12 text-white">
-        <h1 className="text-lg font-semibold tracking-tight sm:text-xl">Thoughts</h1>
+        <h1 className="text-lg font-semibold tracking-tight">Thoughts</h1>
         <p className="mt-2 text-white/70 text-sm">I randomly log paradigms, technologies and structural architecture concepts that I find significant.</p>
         
         <div className="mt-10 space-y-6">
             {mockThoughts.map((thought) => (
             <div key={thought.id} className="rounded-xl border border-white/50 bg-inherit p-6 transition-all hover:border-slate-700">
                 <span className="text-xs font-medium text-white/60">{thought.date}</span>
-                <h2 className="mt-1 text-lg font-bold text-white">{thought.title}</h2>
+                <h2 className="mt-1 text-lg font-medium text-white">{thought.title}</h2>
                 <p className="mt-2 text-white/50 text-sm leading-relaxed">{thought.description}</p>
                 <a href={thought.link} target="_blank" rel="noreferrer" className="mt-4 inline-flex items-center text-sm font-semibold text-white hover:underline">
-                Read article →
+                Read →
                 </a>
             </div>
             ))}

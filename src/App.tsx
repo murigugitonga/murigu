@@ -8,28 +8,28 @@ import Books from './pages/Books.js';
 export default function App(): ReactElement {
   return (
     <Router>
-      <div className="flex px-4 justify-center items-start min-h-screen w-full bg-[#080808] text-[#E7E5E0]">
+      <div className="relative flex px-4 justify-center items-start min-h-screen w-full bg-black text-[#E7E5E0]">
         <Navbar />
 
         <main className="pt-2 max-w-lg flex bg-inherit">
           <Routes>
             {/* Landing Route */}
             <Route path="/" element={
-              <section className="flex min-h-screen flex-col space-y-8 items-center justify-center px-2 text-center">
+              <section className="flex min-h-screen flex-col space-y-9 items-center justify-center px-2 text-center">
                 <div className="flex flex-col space-y-4 text-sm items-start">
                   <p className="text-start leading-relaxed text-[#E7E5E0]">
-                    Notable bottlenecks plaguing Artificial Intelligence models are orchestration, memory, compute, latency and scale.
+                    Notable bottlenecks plaguing Artificial Intelligence lie in model orchestration, memory management, compute availability, model latency and scaling constraints.
                   </p>
                   <p className="text-start leading-relaxed text-[#E7E5E0]">
-                    My call is engineeering the infrastructure that operationalises these models - frontier and specialised - building the
-                    computational systems that allow them to run safely, effeciently, maximising throughput, minimising latency and infrastructure churn, transforming raw model capability into usable artificial intelligence.
+                    My call is engineeering the infrastructure that operationalizes these models - frontier and specialized - building the
+                    computational systems that allows them to effectively mitigate these shortcomings, maximising throughput and minimising infrastructure churn, transforming raw model capability into usable Artificial Intelligence.
                   </p>
 
                 </div>
                 {/**Other projects will go here */}
                 {/**Links to social media */}
                 <div className='flex justify-between text-sm items-start w-full'>
-                  <nav className='flex flex-col space-y-2 items-start text-white/60'>
+                  <nav className='flex flex-col space-y-2 items-start text-[#E7E5E0]/60'>
                     <a href="http://murigudev.vercel.app" target="_blank" rel="noopener noreferrer">Web Systems</a>
                     <a href="https://murigugitonga.github.io" target="_blank" rel="noopener noreferrer">Systems Engineering</a>
                     <a href="https://murigu.gitlab.io" target="_blank" rel="noopener noreferrer">Aerospace & Defence</a>

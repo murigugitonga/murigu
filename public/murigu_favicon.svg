@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="512"
+   height="512"
+   viewBox="0 0 512 512"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   sodipodi:docname="murigu_favicon.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:zoom="0.52148438"
+     inkscape:cx="310.65168"
+     inkscape:cy="290.51685"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1">
+    <inkscape:grid
+       id="grid1"
+       units="px"
+       originx="0"
+       originy="0"
+       spacingx="1"
+       spacingy="1"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="5"
+       enabled="true"
+       visible="false" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1">
+    <linearGradient
+       id="linearGradient9"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0.49316418"
+         id="stop9" />
+      <stop
+         style="stop-color:#892685;stop-opacity:0;"
+         offset="0.49316418"
+         id="stop10" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient7"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0.42865372"
+         id="stop7" />
+      <stop
+         style="stop-color:#412a56;stop-opacity:0;"
+         offset="0.42865372"
+         id="stop8" />
+    </linearGradient>
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 256 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="512 : 256 : 1"
+       inkscape:persp3d-origin="256 : 170.66667 : 1"
+       id="perspective1" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7"
+       id="linearGradient8"
+       x1="391.12524"
+       y1="356.40195"
+       x2="391.78949"
+       y2="136.73804"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.98139421,0,0,0.98139423,-9.7131412,-1.6219087)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient9"
+       id="linearGradient10"
+       x1="18.510607"
+       y1="253.67404"
+       x2="281.80894"
+       y2="253.67404"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-2.1502472,-14.702872)" />
+  </defs>
+  <rect
+     style="fill:#e7e5e0;fill-rule:evenodd;fill-opacity:1"
+     id="rect5"
+     width="475.56555"
+     height="475.56555"
+     x="19.176029"
+     y="15.340824"
+     ry="30.508877" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-weight:600;font-size:250px;line-height:0px;font-family:'Bookman Old Style';-inkscape-font-specification:'Bookman Old Style Semi-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;opacity:0.917399;fill:url(#linearGradient10);fill-opacity:1;stroke:#000000;stroke-width:8;stroke-linejoin:bevel;stroke-dasharray:none;paint-order:markers fill stroke;stroke-opacity:1"
+       x="147.93628"
+       y="341.14404"
+       id="text6"><tspan
+         sodipodi:role="line"
+         id="tspan6"
+         x="147.93628"
+         y="341.14404"
+         style="font-size:250px;fill:url(#linearGradient10);stroke-width:8;stroke-dasharray:none;stroke:#000000;stroke-opacity:1">M</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:600;font-size:245.349px;line-height:0px;font-family:'Bookman Old Style';-inkscape-font-specification:'Bookman Old Style Semi-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;opacity:0.99;fill:url(#linearGradient8);fill-opacity:1;stroke:#000000;stroke-width:8;stroke-linejoin:bevel;stroke-dasharray:none;paint-order:markers fill stroke;stroke-opacity:1"
+       x="371.76633"
+       y="344.62448"
+       id="text7"
+       transform="scale(1.019783,0.98060078)"><tspan
+         sodipodi:role="line"
+         id="tspan7"
+         x="371.76633"
+         y="344.62448"
+         style="font-size:245.349px;fill:url(#linearGradient8);fill-opacity:1;stroke-width:8;stroke-dasharray:none;stroke:#000000;stroke-opacity:1">G</tspan></text>
+  </g>
+</svg>

@@ -15,7 +15,7 @@ export default function App(): ReactElement {
 
         <main className="pt-2 max-w-lg flex bg-inherit">
           <Routes>
-            {/* Landing Route */}
+            {/* L-R*/}
             <Route path="/" element={
               <section className="flex min-h-screen flex-col space-y-9 items-center justify-center px-2 text-center">
                 <div className="flex flex-col space-y-4 text-sm items-start">
@@ -28,8 +28,8 @@ export default function App(): ReactElement {
                   </p>
 
                 </div>
-                {/**Other projects will go here */}
-                {/**Links to social media */}
+                {/**--*-- */}
+                {/**Links to other pages */}
                 <div className='flex justify-between text-sm items-start w-full'>
                   <nav className='flex flex-col space-y-2 items-start text-[#E7E5E0]/60'>
                     <a href="http://murigudev.vercel.app" target="_blank" rel="noopener noreferrer">Web Systems</a>

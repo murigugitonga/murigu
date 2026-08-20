@@ -39,19 +39,16 @@ export default function Books(): ReactElement {
           <div key={book.id} className="flex flex-col justify-between rounded-xl border border-white/10 bg-inherit p-6 transition-all hover:border-slate-700">
             <div>
               <div className="flex items-center justify-between gap-2">
-                <h2 className="text-lg font-bold text-white">{book.title}</h2>
-                {/* Rate Box */}
-                <div className="flex items-center rounded-md bg-inherit px-2 py-1 text-xs font-semibold text-white ring-1 ring-white/40">
-                  ★ {book.rating}.0
-                </div>
+                <a href={book.reviewLink} target="_blank" rel="noreferrer" className="font-medium text-white hover:underline">{book.title}</a>
               </div>
               <p className="text-xs text-white/60 mt-1">{book.author}</p>
               <p className="mt-1 text-white/50 text-sm leading-relaxed italic">{book.description}</p>
+              <div className="flex items-center rounded-md bg-inherit px-2 py-1 text-xs font-semibold text-white">
+                ★ {book.rating}.0
+              </div>
             </div>
             
-            <a href={book.reviewLink} target="_blank" rel="noreferrer" className="mt-2 inline-flex items-center text-sm font-semibold text-white hover:underline">
-              Read →
-            </a>
+
           </div>
         ))}
       </div>

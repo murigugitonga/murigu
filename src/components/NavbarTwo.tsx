@@ -4,8 +4,8 @@ import { NavLink } from 'react-router-dom';
 export default function NavbarTwo(): ReactElement {
   return (
     <nav className="fixed top-0 left-0 z-50 w-full border-b border-black bg-black backdrop-blur-md text-white">
-      <div className="mx-auto max-w-lg px-4 sm:px-6 lg:px-8">
-        <div className="flex h-12 items-center justify-between">
+      <div className="mx-auto max-w-lg p-4 sm:px-6 lg:px-8">
+        <div className="flex h-14 items-center justify-between">
           {/* Logo / Home link */}
           <div className="flex-shrink-0">
             <NavLink to="/" className="text-lg font-semibold tracking-wider text-[#E7E5E0]">

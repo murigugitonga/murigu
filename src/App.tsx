@@ -4,12 +4,13 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Thoughts from './pages/Thoughts.js';
 import Books from './pages/Books.js';
 import NavbarTwo from './components/NavbarTwo.js';
+import SoftwareCard from './components/SoftwareCard.js';
 
 
 export default function App(): ReactElement {
   return (
     <Router>
-      <div className="relative flex p-4 justify-center items-start min-h-screen w-full bg-black text-[#E7E5E0]">
+      <div className="relative flex p-4 justify-center items-start min-h-screen w-full bg-black text-milk-haze">
         {/* <Navbar /> */}
         <NavbarTwo/>
 
@@ -17,18 +18,25 @@ export default function App(): ReactElement {
           <Routes>
             {/* L-R*/}
             <Route path="/" element={
-              <section className="flex min-h-screen flex-col space-y-9 items-center justify-center px-2 text-center">
-                <div className="flex flex-col space-y-4 text-sm items-start">
-                  <p className="text-start leading-relaxed text-[#E7E5E0]">
-                    Notable bottlenecks plaguing Artificial Intelligence lie in compute availability, memory management, model orchestration, latency and scaling constraints.
+              <section className="flex min-h-screen flex-col space-y-9 items-center justify-center px-2 text-center pt-10">
+                <div className="flex flex-col space-y-4 text-sm lg:text-lg items-start">
+                  <p className="text-start leading-relaxed text-inherit">
+                    Notable bottlenecks plaguing AI models lie in compute availability, memory management, model orchestration, latency, and scaling constraints.
                   </p>
-                  <p className="text-start leading-relaxed text-[#E7E5E0]">
-                    My call is engineeering the infrastructure that operationalizes these models - frontier and specialized - building the
-                    computational systems that allow them to effectively mitigate these shortcomings, maximize throughput and minimize infrastructure churn, transforming raw model capability into effective Artificial Intelligence.
+                  <p className="text-start leading-relaxed text-inherit">
+                    I build the computational systems that allows these models - both frontier and specialized - to effectively negotiate these challenges. 
+                  </p>
+                  <p className='text-start leading-relaxed'>
+                    My engineering approach is purely hinged 
+                    on maximizing throughput while minimizing the infrastructure churn, with an end-goal of transforming raw model capability to reliable artificial intelligence.
                   </p>
 
                 </div>
-                {/**--*-- */}
+                {/**Software Projects */}
+                <section className='w-full block'>
+                  <SoftwareCard/>
+                </section>
+                
                 {/**Links to other pages */}
                 <div className='flex justify-between text-sm items-start w-full'>
                   <nav className='flex flex-col space-y-2 items-start text-[#E7E5E0]/60'>

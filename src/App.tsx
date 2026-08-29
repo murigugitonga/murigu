@@ -18,17 +18,17 @@ export default function App(): ReactElement {
           <Routes>
             {/* L-R*/}
             <Route path="/" element={
-              <section className="flex min-h-screen flex-col space-y-9 items-center justify-center px-2 text-center pt-10">
-                <div className="flex flex-col space-y-4 text-sm lg:text-lg items-start">
+              <section className="flex min-h-screen flex-col space-y-6 items-center justify-center px-2 text-center pt-10">
+                <div className="flex flex-col space-y-4 text-sm lg:text-lg items-start px-3">
                   <p className="text-start leading-relaxed text-inherit">
-                    Notable bottlenecks plaguing AI models lie in compute availability, memory management, model orchestration, latency, and scaling constraints.
+                    Notable bottlenecks plaguing AI models manifest in compute availability, memory management, model orchestration, latency, and scaling constraints.
                   </p>
                   <p className="text-start leading-relaxed text-inherit">
-                    I build the computational systems that allows these models - both frontier and specialized - to effectively negotiate these challenges. 
+                    I build the computational systems that allow these models - both frontier and specialized - to effectively negotiate these challenges. 
                   </p>
                   <p className='text-start leading-relaxed'>
                     My engineering approach is purely hinged 
-                    on maximizing throughput while minimizing the infrastructure churn, with an end-goal of transforming raw model capability to reliable artificial intelligence.
+                    on maximum throughput with minimal infrastructure churn, with the over-arching objective being the transformation of raw model capability to reliable artificial intelligence.
                   </p>
 
                 </div>
@@ -39,7 +39,7 @@ export default function App(): ReactElement {
                 
                 {/**Links to other pages */}
                 <div className='flex justify-between text-sm items-start w-full'>
-                  <nav className='flex flex-col space-y-2 items-start text-[#E7E5E0]/60'>
+                  <nav className='flex flex-col space-y-2 items-start text-milk-haze/60'>
                     <a href="http://murigudev.vercel.app" target="_blank" rel="noopener noreferrer">Web Systems</a>
                     <a href="https://murigugitonga.github.io" target="_blank" rel="noopener noreferrer">Systems Engineering</a>
                     <a href="https://murigu.gitlab.io" target="_blank" rel="noopener noreferrer">Aerospace & Defence</a>

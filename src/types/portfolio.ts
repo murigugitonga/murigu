@@ -14,3 +14,10 @@ export interface Thought{
     link: string
     date: string
 }
+
+export interface Project{
+    id: string
+    repoName: string
+    repoDesc: string
+    repoLink: string
+}

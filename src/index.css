@@ -1,1 +1,16 @@
-@import "tailwindcss"
+@import "tailwindcss";
+
+@theme {
+    --main-background: #0000;
+    --color-tech-bright: #f5f7fa;
+    --color-tech-frost: #f0f3f4;
+    --color-tech-ice: #e2e8f0;
+    --color-milk-haze: #eeebe4;
+
+    /*Secondary UI*/
+    --color-tech-steel: #94a3b8;
+    --color-tech-slate: #475569;
+
+    /*previous-colors*/
+    --color-text-previous: #E7E5E0;
+}

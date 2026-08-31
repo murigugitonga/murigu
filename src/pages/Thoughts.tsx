@@ -37,7 +37,7 @@ export default function Thoughts(): ReactElement{
         
         <div className="mt-10 space-y-6">
             {mockThoughts.map((thought) => (
-            <div key={thought.id} className="rounded-xl border border-white/50 bg-inherit p-6 transition-all hover:border-slate-700">
+            <div key={thought.id} className="rounded-xl border border-white/50 bg-inherit p-3 transition-all hover:border-slate-700">
                 <span className="text-xs font-medium text-white/60">{thought.date}</span>
                 <h2 className="mt-1 text-lg font-medium text-white">{thought.title}</h2>
                 <p className="mt-2 text-white/50 text-sm leading-relaxed">{thought.description}</p>

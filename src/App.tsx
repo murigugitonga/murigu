@@ -19,16 +19,16 @@ export default function App(): ReactElement {
             {/* L-R*/}
             <Route path="/" element={
               <section className="flex min-h-screen flex-col space-y-6 items-center justify-center px-2 text-center pt-10">
-                <div className="flex flex-col space-y-4 text-sm lg:text-lg items-start px-3">
+                <div className="flex flex-col space-y-4 text-sm items-start px-3">
                   <p className="text-start leading-relaxed text-inherit">
                     Notable bottlenecks plaguing AI models manifest in compute availability, memory management, model orchestration, latency, and scaling constraints.
                   </p>
                   <p className="text-start leading-relaxed text-inherit">
-                    I build the computational systems that allow these models - both frontier and specialized - to effectively negotiate these challenges. 
+                    I build the computational systems that allow these models-both frontier and specialized-to effectively mitigate these challenges. 
                   </p>
                   <p className='text-start leading-relaxed'>
                     My engineering approach is purely hinged 
-                    on maximum throughput with minimal infrastructure churn, with the over-arching objective being the transformation of raw model capability to reliable artificial intelligence.
+                    on maximum throughput with minimal infrastructure churn, with the overarching objective being the transformation of raw model capability to reliable artificial intelligence.
                   </p>
 
                 </div>

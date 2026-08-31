@@ -34,11 +34,11 @@ export default function Books(): ReactElement {
       <h1 className="text-lg font-extrabold tracking-tight sm:text-xl">Bookshelf</h1>
       <p className="mt-2 text-sm text-white/70 italic">A curated collection of books, papers and articles of professional and technical books I have studied along with my two cents on each.</p>
       
-      <div className="mt-10 grid gap-6 sm:grid-cols-1">
+      <div className="mt-10 grid gap-3 sm:grid-cols-1">
         {mockBooks.map((book) => (
-          <div key={book.id} className="flex flex-col justify-between rounded-xl border border-white/10 bg-inherit p-6 transition-all hover:border-slate-700">
+          <div key={book.id} className="flex flex-col justify-between rounded-xl bg-inherit py-3 transition-all hover:boder hover:border-slate-700">
             <div>
-              <div className="flex items-center justify-between gap-2">
+              <div className="flex items-center justify-between gap-0.5">
                 <a href={book.reviewLink} target="_blank" rel="noreferrer" className="font-medium text-white hover:underline">{book.title}</a>
               </div>
               <p className="text-xs text-white/60 mt-1">{book.author}</p>

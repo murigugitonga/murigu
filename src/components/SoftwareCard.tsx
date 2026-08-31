@@ -32,16 +32,16 @@ const projectRepos : Project[] = [
 export default function SoftwareCard():ReactElement{
     return (
         <div className="flex flex-col space-y-2 w-full bg-inherit text-inherit items-start">
-            <h2 className="text-xl md:text-2xl font-semibold text-milk-haze">Software</h2>
+            <h2 className="text-xl md:text-xl font-semibold text-milk-haze">Software</h2>
             <div className="flex flex-col space-y-4 px-3">
                 {projectRepos.map( project=>(
                     <div key={project.id} className="flex w-full">
                         <div className="w-full flex flex-col items-start">
                             <a href={project.repoLink} className="flex w-full justify-between items-center hover:underline hover:text-tech-ice">
-                                <span>{project.repoName}</span>
+                                <span className="text-sm">{project.repoName}</span>
                                 <span>&#10230;</span>
                             </a>
-                            <blockquote className="text-tech-ice/60 italic text-sm">
+                            <blockquote className="text-tech-ice/60 italic text-sm text-start">
                                 {project.repoDesc}
                             </blockquote>
                         </div>

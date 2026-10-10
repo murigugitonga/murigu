@@ -24,7 +24,7 @@ export default function App(): ReactElement {
                     Notable bottlenecks plaguing AI models manifest in compute availability, memory management, model orchestration, latency, and scaling constraints.
                   </p>
                   <p className="text-start leading-relaxed text-inherit">
-                    I build the computational systems that allow these models-both frontier and specialized-to effectively mitigate these challenges. 
+                    I build the computational systems that allow these models, both frontier and specialized, to effectively mitigate these challenges. 
                   </p>
                   <p className='text-start leading-relaxed'>
                     My engineering approach is purely hinged 

@@ -6,25 +6,37 @@ const mockBooks: Book[] = [
     id: "1",
     title: "Designing Data-Intensive Applications",
     author: "Martin Kleppmann",
-    description: "Modern large-scale systems architecture never felt so easy.",
-    reviewLink: "https://goodreads.com",
-    rating: 5,
+    description:
+      "A candid break-down of modern large-scale systems infrastructure.",
+    reviewLink: "https://www.youtube.com/watch?v=SVOrURyOu_U",
+    rating: 4.8,
   },
   {
     id: "2",
     title: "The Urgency of Interpretability",
     author: "Dario Amodei",
-    description: "We really need to understand how AI works under the hood.",
-    reviewLink: "https://goodreads.com",
-    rating: 5,
+    description:
+      "The imperativeness of understanding AI mechanics under the hood can't be understated.",
+    reviewLink: "https://darioamodei.com/post/the-urgency-of-interpretability",
+    rating: 4.8,
   },
   {
     id: "3",
     title: "Machines of Loving Grace",
     author: "Dario Amodei",
-    description: "A country of geniuses...but on server racks.",
-    reviewLink: "https://goodreads.com",
-    rating: 5,
+    description:
+      "A profound take on the risks of powerful artificial intelligence.",
+    reviewLink: "https://darioamodei.com/essay/machines-of-loving-grace",
+    rating: 4.6,
+  },
+  {
+    id: "4",
+    title: "AI 2027",
+    author: "Daniel Kokotajlo, Scott Alexander, Thomas Larsen",
+    description:
+      "A scenario-based chronological break-down on the possible impact of superhuman AI over the next-decade.",
+    reviewLink: "https://ai-2027.com/",
+    rating: 4.6,
   },
 ];
 
@@ -34,9 +46,9 @@ export default function Books(): ReactElement {
       <h1 className="text-lg font-extrabold tracking-tight sm:text-xl">
         Bookshelf
       </h1>
-      <p className="mt-2 text-sm text-white/70">
-        A curated collection of books, papers, and articles of professional and
-        technical books I have studied along with my two cents on each.
+      <p className="mt-2 text-sm text-white/80">
+        A select collection of articles, papers, essays, books and videos from
+        my study collection, relevant to my & modern computing interests.
       </p>
 
       <div className="mt-10 grid gap-3 sm:grid-cols-1">
@@ -57,11 +69,11 @@ export default function Books(): ReactElement {
                 </a>
               </div>
               <p className="text-xs text-white/60 mt-1">{book.author}</p>
-              <p className="mt-1 text-white/50 text-sm leading-relaxed italic">
+              <p className="mt-1 text-tech-ice/50 text-sm leading-relaxed italic">
                 {book.description}
               </p>
-              <div className="flex items-center rounded-md bg-inherit px-2 py-1 text-xs font-semibold text-white">
-                ★ {book.rating}.0
+              <div className="flex items-center rounded-md bg-inherit px-2 py-1 text-xs font-semibold text-white/70">
+                ★ {book.rating}
               </div>
             </div>
           </div>

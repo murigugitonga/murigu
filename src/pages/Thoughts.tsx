@@ -29,9 +29,9 @@ export default function Thoughts(): ReactElement {
   return (
     <section className="mx-auto max-w-4xl px-2 py-12 text-white">
       <h1 className="text-lg font-semibold tracking-tight">Thoughts</h1>
-      <p className="mt-2 text-white/70 text-sm">
-        (This is going to be) A curated list of articles and essays by me
-        touching on AI and modern computing.
+      <p className="mt-2 text-white/80 text-sm">
+        (This is going to be) a curated list of articles and essays by me
+        dissecting AI and modern computing.
       </p>
 
       {/* <div className="mt-10 space-y-6">

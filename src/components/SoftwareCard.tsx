@@ -7,27 +7,27 @@ const projectRepos: Project[] = [
     repoName: "Native Compute Matrix Extension",
     repoDesc:
       "A multi-thread compilation engine to manage heavy computational array allocations.",
-    repoLink: "https://github.com/murigugitonga/tensor_runtime",
+    repoLink: "https://github.com/murigugitonga/",
   },
   {
     id: "1",
     repoName: "Asynchronous gRPC Polyglot Transport Mesh",
     repoDesc: "A high throughput telemetry gateway.",
-    repoLink: "https://github.com/murigugitonga/tensor_runtime",
+    repoLink: "https://github.com/murigugitonga/",
   },
   {
     id: "2",
     repoName: "Isolated Compute Sandbox",
     repoDesc:
       "A configuration framework for hardware-constrained production environments.",
-    repoLink: "https://github.com/murigugitonga/tensor_runtime",
+    repoLink: "https://github.com/murigugitonga/",
   },
   {
     id: "1",
     repoName: "Accelerated CPU Matrix Wrapper",
     repoDesc:
       "A python package that replaces slow loops with low-level compute.",
-    repoLink: "https://github.com/murigugitonga/tensor_runtime",
+    repoLink: "https://github.com/murigugitonga/",
   },
 ];
 

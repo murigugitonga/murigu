@@ -45,13 +45,30 @@ export default function App(): ReactElement {
 
                   {/**Links to other pages */}
                   <div className="flex justify-between text-sm items-start w-full">
-                    {/* <nav className='flex flex-col space-y-2 items-start text-milk-haze/60'>
-                    <a href="http://murigudev.vercel.app" target="_blank" rel="noopener noreferrer">Web Systems</a>
-                    <a href="https://murigugitonga.github.io" target="_blank" rel="noopener noreferrer">Systems Engineering</a>
-                    <a href="https://murigu.gitlab.io" target="_blank" rel="noopener noreferrer">Aerospace & Defence</a>
-                    
-                  </nav> */}
-                    <nav className="flex flex-col space-y-2 items-end text-white/60">
+                    <nav className="flex flex-col space-y-2 items-start text-milk-haze/60">
+                      <a
+                        href="http://murigudev.vercel.app"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Web Systems
+                      </a>
+                      <a
+                        href="https://murigugitonga.github.io"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Systems Engineering
+                      </a>
+                      <a
+                        href="https://murigu.gitlab.io"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Aerospace & Defence
+                      </a>
+                    </nav>
+                    {/* <nav className="flex flex-col space-y-2 items-end text-white/60">
                       <a
                         href="http://facebook.com/murigugitonga"
                         target="_blank"
@@ -73,7 +90,7 @@ export default function App(): ReactElement {
                       >
                         LinkedIn
                       </a>
-                    </nav>
+                    </nav> */}
                   </div>
                 </section>
               }

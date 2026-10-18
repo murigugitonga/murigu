@@ -2,13 +2,22 @@ import type { ReactElement } from "react";
 import type { Book } from "../types/portfolio.js";
 
 const mockBooks: Book[] = [
+  // {
+  //   id: "1",
+  //   title: "Designing Data-Intensive Applications",
+  //   author: "Martin Kleppmann",
+  //   description:
+  //     "A candid break-down of modern large-scale systems infrastructure.",
+  //   reviewLink: "https://www.youtube.com/watch?v=SVOrURyOu_U",
+  //   rating: 4.8,
+  // },
   {
     id: "1",
-    title: "Designing Data-Intensive Applications",
-    author: "Martin Kleppmann",
+    title: "The Adolescence of Technology",
+    author: "Dario Amodei",
     description:
-      "A candid break-down of modern large-scale systems infrastructure.",
-    reviewLink: "https://www.youtube.com/watch?v=SVOrURyOu_U",
+      "A comprehensive vision of what a mature safe AI civilization could look like.",
+    reviewLink: "https://darioamodei.com/essay/the-adolescence-of-technology",
     rating: 4.8,
   },
   {
@@ -25,16 +34,53 @@ const mockBooks: Book[] = [
     title: "Machines of Loving Grace",
     author: "Dario Amodei",
     description:
-      "A profound take on the risks of powerful artificial intelligence.",
+      "A profound take on the benefits of powerful artificial intelligence.",
     reviewLink: "https://darioamodei.com/essay/machines-of-loving-grace",
     rating: 4.6,
   },
   {
     id: "4",
+    title: "We Must Pace the Frontier",
+    author: "Dario Amodei",
+    description:
+      "Based on the potential risks it carries, AI needs to be developed at a sustainable pace.",
+    reviewLink: "https://darioamodei.com/post/we-must-pace-the-frontier",
+    rating: 4.6,
+  },
+  {
+    id: "5",
+    title: "We Must Pace the Frontier",
+    author: "Mark Zuckerberg",
+    description:
+      "A seminal industry perspective laying out the economic and innovation arguments for open-weight models.",
+    reviewLink:
+      "https://about.fb.com/news/2024/07/open-source-ai-is-the-path-forward/",
+    rating: 4.5,
+  },
+
+  {
+    id: "6",
+    title: "The Gradient of Generative AI Release",
+    author: "Irene Solaiman",
+    description:
+      "Critically exaimining the effect of deployment strategies on public safety, corporate power and developer innovation.",
+    reviewLink: "https://arxiv.org/abs/2302.04844",
+    rating: 4.6,
+  },
+  {
+    id: "7",
+    title: "AI for society",
+    author: "Multiple Authors",
+    description: "AI perspective beyond the lens of computer science.",
+    reviewLink: "https://www.mdpi.com/journal/ai",
+    rating: 4.9,
+  },
+  {
+    id: "8",
     title: "AI 2027",
     author: "Daniel Kokotajlo, Scott Alexander, Thomas Larsen",
     description:
-      "A scenario-based chronological break-down on the possible impact of superhuman AI over the next-decade.",
+      "A scenario-based chronological break-down on the possible impact of superhuman AI over the next decade.",
     reviewLink: "https://ai-2027.com/",
     rating: 4.6,
   },

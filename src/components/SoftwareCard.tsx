@@ -23,7 +23,7 @@ const projectRepos: Project[] = [
     repoLink: "https://github.com/murigugitonga/",
   },
   {
-    id: "1",
+    id: "3",
     repoName: "Accelerated CPU Matrix Wrapper",
     repoDesc:
       "A python package that replaces slow loops with low-level compute.",
